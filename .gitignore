@@ -1,6 +1,10 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Environment variables (NEVER commit API keys or secrets)
+.env.local
+.env.production.local
+.env.test.local
+.env
 
-# dependencies
+# Dependencies
 /node_modules
 /.pnp
 .pnp.*
@@ -10,28 +14,42 @@
 !.yarn/releases
 !.yarn/versions
 
-# testing
+# Testing
 /coverage
 
-# next.js
+# Next.js build and development
 /.next/
 /out/
-
-# production
 /build
+.turbo/
 
-# misc
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-*
+
+# OS specific
 .DS_Store
 *.pem
+Thumbs.db
+.DS_Store?
+._*
+.AppleDouble
 
-# debug
+# Logs and debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# Build artifacts
+*.tsbuildinfo
+dist/
+
 
 # vercel
 .vercel

@@ -122,6 +122,8 @@ Live leaderboard → Result declaration → Archived audit trail
 
 Work only on the branch relevant to your assigned role.
 
+We will remove our these branches once the coding part is over.
+
 ---
 
 ## 🛠️ Setup Steps  
@@ -171,7 +173,6 @@ Create a PR targeting your role branch:
 - **Core/Admin features → `main`**
 
 After review, changes will be merged.
-
 ---
 
 ## 📌 Contribution Guidelines
